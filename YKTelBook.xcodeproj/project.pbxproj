@@ -1,0 +1,262 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BD3818101D1A350100B4699B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38180F1D1A350100B4699B /* main.m */; };
+		BD3818181D1A351A00B4699B /* YKPerson.m in Sources */ = {isa = PBXBuildFile; fileRef = BD3818171D1A351A00B4699B /* YKPerson.m */; };
+		BD38181B1D1A352C00B4699B /* YKTelBook.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38181A1D1A352C00B4699B /* YKTelBook.m */; };
+		BD38181E1D1A355000B4699B /* YKMenu.m in Sources */ = {isa = PBXBuildFile; fileRef = BD38181D1D1A355000B4699B /* YKMenu.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		BD38180A1D1A350100B4699B /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		BD38180C1D1A350100B4699B /* YKTelBook */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = YKTelBook; sourceTree = BUILT_PRODUCTS_DIR; };
+		BD38180F1D1A350100B4699B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		BD3818161D1A351A00B4699B /* YKPerson.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKPerson.h; sourceTree = "<group>"; };
+		BD3818171D1A351A00B4699B /* YKPerson.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKPerson.m; sourceTree = "<group>"; };
+		BD3818191D1A352B00B4699B /* YKTelBook.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKTelBook.h; sourceTree = "<group>"; };
+		BD38181A1D1A352C00B4699B /* YKTelBook.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKTelBook.m; sourceTree = "<group>"; };
+		BD38181C1D1A355000B4699B /* YKMenu.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YKMenu.h; sourceTree = "<group>"; };
+		BD38181D1D1A355000B4699B /* YKMenu.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YKMenu.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BD3818091D1A350100B4699B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BD3818031D1A350100B4699B = {
+			isa = PBXGroup;
+			children = (
+				BD38180E1D1A350100B4699B /* YKTelBook */,
+				BD38180D1D1A350100B4699B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BD38180D1D1A350100B4699B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BD38180C1D1A350100B4699B /* YKTelBook */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BD38180E1D1A350100B4699B /* YKTelBook */ = {
+			isa = PBXGroup;
+			children = (
+				BD38180F1D1A350100B4699B /* main.m */,
+				BD3818161D1A351A00B4699B /* YKPerson.h */,
+				BD3818171D1A351A00B4699B /* YKPerson.m */,
+				BD3818191D1A352B00B4699B /* YKTelBook.h */,
+				BD38181A1D1A352C00B4699B /* YKTelBook.m */,
+				BD38181C1D1A355000B4699B /* YKMenu.h */,
+				BD38181D1D1A355000B4699B /* YKMenu.m */,
+			);
+			path = YKTelBook;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BD38180B1D1A350100B4699B /* YKTelBook */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD3818131D1A350100B4699B /* Build configuration list for PBXNativeTarget "YKTelBook" */;
+			buildPhases = (
+				BD3818081D1A350100B4699B /* Sources */,
+				BD3818091D1A350100B4699B /* Frameworks */,
+				BD38180A1D1A350100B4699B /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = YKTelBook;
+			productName = YKTelBook;
+			productReference = BD38180C1D1A350100B4699B /* YKTelBook */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BD3818041D1A350100B4699B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = xiaofan;
+				TargetAttributes = {
+					BD38180B1D1A350100B4699B = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = BD3818071D1A350100B4699B /* Build configuration list for PBXProject "YKTelBook" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = BD3818031D1A350100B4699B;
+			productRefGroup = BD38180D1D1A350100B4699B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BD38180B1D1A350100B4699B /* YKTelBook */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BD3818081D1A350100B4699B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BD38181E1D1A355000B4699B /* YKMenu.m in Sources */,
+				BD3818181D1A351A00B4699B /* YKPerson.m in Sources */,
+				BD3818101D1A350100B4699B /* main.m in Sources */,
+				BD38181B1D1A352C00B4699B /* YKTelBook.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BD3818111D1A350100B4699B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		BD3818121D1A350100B4699B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		BD3818141D1A350100B4699B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BD3818151D1A350100B4699B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BD3818071D1A350100B4699B /* Build configuration list for PBXProject "YKTelBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3818111D1A350100B4699B /* Debug */,
+				BD3818121D1A350100B4699B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD3818131D1A350100B4699B /* Build configuration list for PBXNativeTarget "YKTelBook" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BD3818141D1A350100B4699B /* Debug */,
+				BD3818151D1A350100B4699B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BD3818041D1A350100B4699B /* Project object */;
+}
